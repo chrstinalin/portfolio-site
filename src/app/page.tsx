@@ -31,7 +31,7 @@ export default function Home() {
       </div>
 
       <section id="home">
-        <div className={"min-w-fit h-screen flex justify-center items-center flex-wrap overflow-clip"}>
+        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
           <FadeInSection id="home" useSetSection={useSetSection}>
             <div className="relative flex justify-center place-items-center flex-wrap-reverse">
               <div className="text-5 w-fit lg:pr-16 md:pr-16">
@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       <section id="about">
-        <div className={"h-screen flex justify-center items-center flex-wrap overflow-clip"}>
+        <div className={"min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
           <FadeInSection id="about" useSetSection={useSetSection}>
             <div className="relative flex justify-center items-center flex-wrap">
               <CardStack />
@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className={"min-w-fit h-screen flex flex-col justify-center items-center"}>
+      <div className={"min-w-fit min-h-screen flex flex-col justify-center items-center"}>
         <section id="projects">
           <FadeInSection id="projects" useSetSection={useSetSection}>
             <div className={"flex flex-col gap-12 justify-center items-center flex-wrap overflow-clip"}>
@@ -70,9 +70,12 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="text-zinc-400 flex w-full h-28 justify-center items-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit">
+      
+      <div className="text-zinc-400 flex h-28 mt-6 justify-center items-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit">
         © 2023 Christina Lin
       </div>
+
+      
 
     </main>
 
