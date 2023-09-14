@@ -8,19 +8,30 @@ import { InteractableImage } from "@/components/image";
 import { NavBar } from "@/components/navBar";
 import { Particle } from "@/components/particles";
 import { ResumeButton } from "@/components/resumeButton";
-
+import { ProjectModal } from "@/components/projectModal";
 import { INFO } from "@/data/user";
+import { useState } from "react";
+
 
 export default function Home() {
 
+  const [projNumber, setProjNumber] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const modalEvent = (projNumber: number) => {
+    setProjNumber(projNumber)
+    setIsOpen(true)
+  }
 
   return (
-    <main className={"bg-zinc-700 text-white"}>
+    <main className={"bg-zinc-800 text-white"}>
+
+      {isOpen && <ProjectModal setIsOpen={setIsOpen} projNumber={projNumber} />}
 
       <Particle />
       <NavBar />
 
-      <div className=" z-50 fixed left-0 top-0 flex w-full justify-end items-center gap-4 p-6">
+      <div className=" z-20 fixed left-0 top-0 flex w-full justify-end items-center gap-4 p-6">
         <div className="flex gap-4">
           <a className={"hover-effect"} href={INFO.socials.github} target="_blank">
             <GithubIcon />
@@ -68,14 +79,14 @@ export default function Home() {
           <FadeInSection>
             <div className={"flex flex-col gap-12 justify-center items-center flex-wrap overflow-clip"}>
               <p className="text-5xl font-bold">Projects & Experience</p>
-              <AllProjects />
+              <AllProjects onClick={modalEvent} />
             </div>
           </FadeInSection>
 
         </div>
       </section>
 
-      <div className="text-zinc-400 flex h-28 mt-6 justify-center items-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit">
+      <div className="text-zinc-400 flex h-28 mt-6 justify-center items-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-900 dark:from-inherit">
         © 2023 Christina Lin
       </div>
 

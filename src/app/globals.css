@@ -45,3 +45,18 @@ body {
   color: rgba(212, 212, 216, 1);
 }
 
+/* Modal */
+
+.darkOverlay {
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: background-color 0.1s ease;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+}
+
+.modal {
+  position: fixed;
+  z-index: 2;
+}
