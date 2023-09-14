@@ -2,29 +2,18 @@ import React, { FC } from "react";
 
 interface SectionProps { 
   children: any
-  id: "home" | "about" | "projects"
-  useSetSection: React.Dispatch<React.SetStateAction<{
-    home: boolean;
-    about: boolean;
-    projects: boolean;
-}>>
 }
 
-export const FadeInSection: FC<SectionProps> = ({children, id, useSetSection}) => {
+export const FadeInSection: FC<SectionProps> = ({children}) => {
     const [isVisible, setVisible] = React.useState(false);
     const domRef = React.useRef(null)
     
     React.useEffect(() => {
       const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => setVisible(entry.isIntersecting));
+        entries.forEach(entry => {if(entry.isIntersecting) setVisible(true)});
       });
       observer.observe(domRef.current!);
     }, []);
-
-    useSetSection(prevState => ({
-      ...prevState,
-      [id]: isVisible
-  }));
 
     return (
       <div
