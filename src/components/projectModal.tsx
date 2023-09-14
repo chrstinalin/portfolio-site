@@ -1,8 +1,8 @@
 import React, { FC } from "react";
 
 
-import { INFO } from "@/data/user";
-import ProjectFull from "./projectFull";
+import { INFO } from "../../public/user";
+import Project from "./project";
 
 export const ProjectModal: FC<{ setIsOpen: any, projNumber: number }> = ({ setIsOpen, projNumber }) => {
 
@@ -16,17 +16,19 @@ export const ProjectModal: FC<{ setIsOpen: any, projNumber: number }> = ({ setIs
 
 
 
-      <div className={'bg-black bg-opacity-50 h-screen w-screen fixed z-30 p-60 flex'} onClick={() => setIsOpen(false)}>
+      <div className={'fade-in bg-black bg-opacity-50 h-screen w-screen fixed z-30 flex sm:p-24'} onClick={() => setIsOpen(false)}>
 
-
-        <ProjectFull
+          <Project
           banner={project.banner}
           logo={project.logo}
           title={project.title}
           description={project.description}
           linkText={project.linkText}
           link={project.link}
+          preventEvent={true}
+          onClose={() => setIsOpen(false)}
         />
+        
 
       </div>
 

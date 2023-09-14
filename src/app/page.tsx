@@ -9,7 +9,7 @@ import { NavBar } from "@/components/navBar";
 import { Particle } from "@/components/particles";
 import { ResumeButton } from "@/components/resumeButton";
 import { ProjectModal } from "@/components/projectModal";
-import { INFO } from "@/data/user";
+import { INFO } from "../../public/user";
 import { useState } from "react";
 
 
@@ -31,7 +31,7 @@ export default function Home() {
       <Particle />
       <NavBar />
 
-      <div className=" z-20 fixed left-0 top-0 flex w-full justify-end items-center gap-4 p-6">
+      <div className=" z-20 fixed left-0 top-0 flex w-full justify-end items-center gap-4 pt-4 pb-2  bg-zinc-800 drop-shadow-md lg:bg-transparent lg:drop-shadow-none">
         <div className="flex gap-4">
           <a className={"hover-effect"} href={INFO.socials.github} target="_blank">
             <GithubIcon />
@@ -48,9 +48,9 @@ export default function Home() {
         <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
           <FadeInSection>
             <div className="relative flex justify-center place-items-center flex-wrap-reverse">
-              <div className="text-5 w-fit lg:pr-16 md:pr-16">
+              <div className="w-96 p-8 flex flex-col gap-2">
                 <p className="text-5xl font-bold">{INFO.home.title}</p>
-                <p className="text-5">{INFO.home.description}</p>
+                <p >{INFO.home.description}</p>
               </div>
               <InteractableImage />
             </div>
@@ -58,14 +58,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about">
-        <div className={"min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
+      <section id="about" >
+      <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
           <FadeInSection>
             <div className="relative flex justify-center items-center flex-wrap">
               <CardStack />
-              <div className="text-5 w-96 lg:pl-16 md:pl-16">
+              <div className="w-96 p-16 flex flex-col gap-2">
                 <p className="text-5xl font-bold">{INFO.about.title}</p>
-                <p className="text-5">{INFO.about.description}</p>
+                <p>{INFO.about.description}</p>
               </div>
               <AllTagSections />
             </div>
@@ -74,10 +74,9 @@ export default function Home() {
       </section>
 
       <section id="projects">
-        <div className={"min-w-fit min-h-screen flex flex-col justify-center items-center"}>
-
+        <div className={"min-h-screen flex flex-col justify-center items-center"}>
           <FadeInSection>
-            <div className={"flex flex-col gap-12 justify-center items-center flex-wrap overflow-clip"}>
+            <div className={"flex flex-col gap-12 justify-center items-center flex-wrap overflow-clip text-center"}>
               <p className="text-5xl font-bold">Projects & Experience</p>
               <AllProjects onClick={modalEvent} />
             </div>

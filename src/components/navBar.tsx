@@ -7,13 +7,15 @@ export const NavBar = () => {
 
     useEffect(() => {
         const sections = document.querySelectorAll("section");
+        
         const observer = new IntersectionObserver(entries => {
             entries.forEach((entry: any) => {
+                console.log(entry)
                 if (entry.isIntersecting) {
                     setCurrentSection(entry.target.id);
                 }
             });
-        }, { threshold: 0.5 });
+        }, { threshold: 0.2 });
         sections.forEach((section) => observer.observe(section));
     }, []);
 
@@ -28,7 +30,7 @@ export const NavBar = () => {
     return (
         <React.Fragment>
 
-            <nav id={"sider"} className={"h-screen fixed w-32 flex justify-center items-center z-20"}>
+            <nav id={"sider"} className={"h-screen fixed w-32 justify-center items-center z-20 hidden lg:flex"}>
                 <div id={"menuBackground"} className={"rounded-full h-36 w-12 flex justify-center items-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-900 dark:from-inherit"}>
                     <ul id={"menu"} className={"flex flex-col gap-3"}>
                         <li id={"homeButton"} className={"hover-effect button"}>

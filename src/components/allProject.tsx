@@ -1,22 +1,41 @@
-import React, { FC } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { FC, useEffect, useRef, useState } from "react";
 
-import Project from "./project";
+import ProjectCard from "./projectCard";
 
-import { INFO } from "@/data/user";
+import { INFO } from "../../public/user";
 
-export const AllProjects: FC<{onClick: any}> = ({onClick}) => {
+const getScreenSize = () => {
+	if (typeof window !== "undefined") {
+		return window.innerWidth;
+	}
+	return undefined
+}
+
+export const AllProjects: FC<{ onClick: any }> = ({ onClick }) => {
+
+	const [windowSize, setWindowSize] = useState(getScreenSize());
+
+	useEffect(() => {
+		function handleResize() {
+			setWindowSize(getScreenSize());
+		}
+		window.addEventListener('resize', handleResize);
+		return () => window.removeEventListener('resize', handleResize);
+	}, []);
+
 	return (
-		<div className="w-screen flex flex-wrap items-center justify-center gap-6 " style={{maxWidth: "50rem"}}>
+		<div className="p-6 flex flex-wrap items-center justify-center gap-6 " style={{ maxWidth: "52.5rem" }}>
 			{INFO.projects.map((project: { banner: any; logo: any; title: any; description: any; linkText: any; link: any; }, index: React.Key | null | undefined) => (
-				<div key={index} onClick={() => {onClick(index)}}>
-					<Project
+				<div key={index} onClick={() => { onClick(index) }}>
+					<ProjectCard
 						banner={project.banner}
 						logo={project.logo}
 						title={project.title}
 						description={project.description}
 						linkText={project.linkText}
 						link={project.link}
-						isFirst={index == 0}
+						isFull={index == 0 || windowSize != undefined && windowSize < 900}
 					/>
 				</div>
 			))}
