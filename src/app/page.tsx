@@ -10,7 +10,7 @@ import { Particle } from "@/components/decorative/particles";
 import { ResumeButton } from "@/components/navigation/resumeButton";
 import { ProjectModal } from "@/components/project/projectModal";
 import { INFO } from "../../public/user";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 export default function Home() {
@@ -22,6 +22,15 @@ export default function Home() {
     setProjNumber(projNumber)
     setIsOpen(true)
   }
+
+  useEffect(() => {
+    const body = document.querySelector("body");
+    if (isOpen) {
+      document.body.style.overflowY = 'hidden';
+    } else {
+      document.body.style.overflowY = "scroll";
+    }
+  }, [isOpen]);
 
   return (
     <main className={"bg-zinc-800 text-white"}>
@@ -59,7 +68,7 @@ export default function Home() {
       </section>
 
       <section id="about" >
-      <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
+        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
           <FadeInSection>
             <div className="relative flex justify-center items-center flex-wrap">
               <CardStack />
