@@ -10,7 +10,6 @@
 
 body {
   max-width: 100%;
-  scrollbar-gutter: stable;
   scroll-behavior: smooth;
   background-color: rgb(39 39 42);
   animation: fadeIn ease 3s;
