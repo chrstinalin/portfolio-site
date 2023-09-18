@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import { HomeIcon, PortfolioIcon, UserIcon } from "./icon"
+import { HomeIcon, PortfolioIcon, UserIcon } from "../decorative/icon"
 
 export const NavBar = () => {
 

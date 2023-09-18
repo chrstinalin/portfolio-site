@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import { LinkIcon } from "./icon";
+import { LinkIcon } from "../decorative/icon";
 import Project from "./project";
 
 const ProjectCard = (props: { banner: any, logo: any; title: any; description: any; linkText: any; link: any; isFull: boolean }) => {

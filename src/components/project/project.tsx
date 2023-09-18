@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { FC } from "react";
-import { CloseIcon, LinkIcon } from "./icon";
+import { CloseIcon, LinkIcon } from "../decorative/icon";
 
 interface ProjectProps {
     banner: any

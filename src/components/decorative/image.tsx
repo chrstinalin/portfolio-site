@@ -2,7 +2,8 @@ import { useState } from 'react'
 import { useSprings, animated, to as interpolate } from '@react-spring/web'
 import { useDrag } from '@use-gesture/react'
 
-import { INFO } from "../../public/user";
+import { INFO } from "../../../public/user";
+
 const cards = INFO.home.photo
 
 const to = (i: number) => ({

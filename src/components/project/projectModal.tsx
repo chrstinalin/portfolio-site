@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
 
-import { INFO } from "../../public/user";
+import { INFO } from "../../../public/user";
 import Project from "./project";
 
 export const ProjectModal: FC<{ setIsOpen: any, projNumber: number }> = ({ setIsOpen, projNumber }) => {
