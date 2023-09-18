@@ -3,7 +3,7 @@ import React, { FC, useEffect, useRef, useState } from "react";
 
 import ProjectCard from "./projectCard";
 
-import { INFO } from "../../public/user";
+import { INFO } from "../../../public/user";
 
 const getScreenSize = () => {
 	if (typeof window !== "undefined") {

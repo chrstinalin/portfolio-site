@@ -1,7 +1,7 @@
 import React from "react";
-import { INFO } from "../../public/user";
+import { INFO } from "../../../public/user";
 import { TagSection } from "./tagSection";
-import { FrameworkIcon, LanguageIcon, ToolIcon } from "./icon";
+import { FrameworkIcon, LanguageIcon, ToolIcon } from "../decorative/icon";
 
 export const AllTagSections = () => {
     return (

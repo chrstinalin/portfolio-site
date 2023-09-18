@@ -1,14 +1,14 @@
 "use client"
-import { AllProjects } from "@/components/allProject";
-import { AllTagSections } from "@/components/allTagSections";
-import { CardStack } from "@/components/cardstack";
-import { FadeInSection } from "@/components/fadeInSection";
-import { GithubIcon, LinkedInIcon } from "@/components/icon";
-import { InteractableImage } from "@/components/image";
-import { NavBar } from "@/components/navBar";
-import { Particle } from "@/components/particles";
-import { ResumeButton } from "@/components/resumeButton";
-import { ProjectModal } from "@/components/projectModal";
+import { AllProjects } from "@/components/project/allProject";
+import { AllTagSections } from "@/components/tag/allTagSections";
+import { CardStack } from "@/components/decorative/cardstack";
+import { FadeInSection } from "@/components/navigation/fadeInSection";
+import { GithubIcon, LinkedInIcon } from "@/components/decorative/icon";
+import { InteractableImage } from "@/components/decorative/image";
+import { NavBar } from "@/components/navigation/navBar";
+import { Particle } from "@/components/decorative/particles";
+import { ResumeButton } from "@/components/navigation/resumeButton";
+import { ProjectModal } from "@/components/project/projectModal";
 import { INFO } from "../../public/user";
 import { useState } from "react";
 
