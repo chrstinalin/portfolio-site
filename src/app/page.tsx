@@ -41,14 +41,13 @@ export default function Home() {
       <NavBar />
 
       <div className=" z-20 fixed left-0 top-0 flex w-full justify-end items-center gap-4 p-4 bg-zinc-800 drop-shadow-md lg:bg-transparent lg:drop-shadow-none">
-        <div className="flex gap-4">
+        <div className="flex gap-4 items-center justify-center">
           <a className={"hover-effect"} href={INFO.socials.github} target="_blank">
-            <GithubIcon />
+            <GithubIcon size={25}/>
           </a>
           <a className={"hover-effect"} href={INFO.socials.linkedin} target="_blank">
-            <LinkedInIcon />
+            <LinkedInIcon size={25} />
           </a>
-
         </div>
         <ResumeButton />
       </div>
