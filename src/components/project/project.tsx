@@ -19,7 +19,7 @@ const Project: FC<ProjectProps> = ({ banner, logo, title, description, linkText,
 
             <div onClick={preventEvent ? (e) => { e.stopPropagation() } : undefined} className={"overflow-hidden z-50 rounded-lg border-b border-gray-300 bg-gradient-to-b from-zinc-200 dark:border-neutral-800 dark:bg-zinc-900 dark:from-inherit"}>
 
-                <div className={"flex flex-col items-stretch relative"}>
+                <div className={"text-left flex flex-col items-stretch relative"}>
 
                     <div className={"w-full max-h-96 overflow-hidden"}>
                         <img src={banner} alt="header" className="w-full brightness-75 z-0" />

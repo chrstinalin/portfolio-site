@@ -24,11 +24,12 @@ export default function Home() {
   }
 
   useEffect(() => {
-    const body = document.querySelector("body");
-    if (isOpen) {
-      document.body.style.overflowY = 'hidden';
-    } else {
-      document.body.style.overflowY = "scroll";
+    const body = document.querySelector("html");
+    if (body && isOpen) {
+      body.style.overflowY = 'hidden';
+    }
+    else if (body) {
+      body.style.overflowY = "auto";
     }
   }, [isOpen]);
 
@@ -43,7 +44,7 @@ export default function Home() {
       <div className=" z-20 fixed left-0 top-0 flex w-full justify-end items-center gap-4 p-4 bg-zinc-800 drop-shadow-md lg:bg-transparent lg:drop-shadow-none">
         <div className="flex gap-4 items-center justify-center">
           <a className={"hover-effect"} href={INFO.socials.github} target="_blank">
-            <GithubIcon size={25}/>
+            <GithubIcon size={25} />
           </a>
           <a className={"hover-effect"} href={INFO.socials.linkedin} target="_blank">
             <LinkedInIcon size={25} />
@@ -53,7 +54,7 @@ export default function Home() {
       </div>
 
       <section id="home">
-        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-show"}>
+        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
           <FadeInSection>
             <div className="relative flex justify-center place-items-center flex-wrap-reverse">
               <div className="w-96 p-8 flex flex-col gap-2">
@@ -67,7 +68,7 @@ export default function Home() {
       </section>
 
       <section id="about" >
-        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-show"}>
+        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
           <FadeInSection>
             <div className="relative flex justify-center items-center flex-wrap">
               <CardStack />
