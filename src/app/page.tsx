@@ -41,7 +41,7 @@ export default function Home() {
       <Particle />
       <NavBar />
 
-      <div className=" z-20 fixed left-0 top-0 flex w-full justify-end items-center gap-4 p-2 md:p-4 bg-zinc-800 drop-shadow-md lg:bg-transparent lg:drop-shadow-none">
+      <div className="z-20 fixed left-0 top-0 flex w-full justify-end items-center gap-4 p-2 md:p-4 bg-zinc-800 drop-shadow-md lg:bg-transparent lg:drop-shadow-none">
         <div className="flex gap-4 items-center justify-center">
           <a className={"hover-effect"} href={INFO.socials.github} target="_blank">
             <GithubIcon size={25} />
@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       <section id="home">
-        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-show"}>
+        <div className={"py-32 sm:my-0 min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-show"}>
           <FadeInSection>
             <div className="relative flex justify-center place-items-center flex-wrap-reverse">
               <div className="w-96 p-8 flex flex-col gap-2">

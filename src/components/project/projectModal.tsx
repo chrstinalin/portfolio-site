@@ -31,24 +31,6 @@ export const ProjectModal: FC<{ setIsOpen: any, projNumber: number }> = ({ setIs
         </div>
       </div>
 
-
-      {/* <div className={'fade-in bg-black bg-opacity-50 h-screen w-screen absolute top-0 left-0 z-30 flex'} onClick={() => setIsOpen(false)}>
-
-        <div className={'relative overflow-auto h-full'}>
-
-          <Project
-            banner={project.banner}
-            logo={project.logo}
-            title={project.title}
-            description={project.description}
-            linkText={project.linkText}
-            link={project.link}
-            preventEvent={true}
-            onClose={() => setIsOpen(false)}
-          />
-
-  </div>*/}
-
     </>
   );
 };
