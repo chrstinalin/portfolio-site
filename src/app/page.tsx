@@ -54,7 +54,7 @@ export default function Home() {
       </div>
 
       <section id="home">
-        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
+        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-show"}>
           <FadeInSection>
             <div className="relative flex justify-center place-items-center flex-wrap-reverse">
               <div className="w-96 p-8 flex flex-col gap-2">
@@ -68,7 +68,7 @@ export default function Home() {
       </section>
 
       <section id="about" >
-        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-clip"}>
+        <div className={"min-w-fit min-h-screen flex justify-center items-center flex-wrap overflow-show"}>
           <FadeInSection>
             <div className="relative flex justify-center items-center flex-wrap">
               <CardStack />
