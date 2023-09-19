@@ -5,16 +5,19 @@ export const INFO = {
 		linkedin: "https://linkedin.com/"
 	},
 
-	languages: ["Python", "Java", "C++", "C", "Typescript"],
+	languages: ["Typescript", "Javascript", "HTML", "CSS", "Java", "Python", "C", "C++"],
 
-	frameworks: ["React.js", "Next.js", "Nest.js", "Pandas"],
+	frameworks: ["React.js", "Next.js", "Nest.js", "Tailwind CSS", "Pandas"],
 
 	tools: ["SQL Server", "Git", "CentOS Hosting"],
 
 	home: {
 		title: "Hello, World!",
 		description:
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			[
+				"Lorem ipsum dolor sit amet",
+				"Lorem ipsum dolor sit amet"
+			],
 		photo: ['https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80']
 	},
 
@@ -38,7 +41,7 @@ export const INFO = {
 	projects: [
 		{
 			title: "Project 1",
-			subtitle:"React, Python",
+			subtitle: "React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima. Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima. Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima. Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima. Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -49,7 +52,7 @@ export const INFO = {
 
 		{
 			title: "Project 2",
-			subtitle:"React, Python",
+			subtitle: "React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
@@ -60,7 +63,7 @@ export const INFO = {
 
 		{
 			title: "Project 3",
-			subtitle:"React, Python",
+			subtitle: "React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
@@ -71,7 +74,7 @@ export const INFO = {
 
 		{
 			title: "Project 4",
-			subtitle:"React, Python",
+			subtitle: "React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -82,7 +85,7 @@ export const INFO = {
 
 		{
 			title: "Project 5",
-			subtitle:"React, Python",
+			subtitle: "React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",

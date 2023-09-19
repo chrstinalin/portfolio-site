@@ -11,6 +11,7 @@ import { ResumeButton } from "@/components/navigation/resumeButton";
 import { ProjectModal } from "@/components/project/projectModal";
 import { INFO } from "../../public/user";
 import { useEffect, useState } from "react";
+import BulletPointSection from "@/components/bulletPointSection";
 
 
 export default function Home() {
@@ -59,7 +60,7 @@ export default function Home() {
             <div className="relative flex justify-center place-items-center flex-wrap-reverse">
               <div className="w-96 p-8 flex flex-col gap-2">
                 <p className="text-5xl font-bold">{INFO.home.title}</p>
-                <p >{INFO.home.description}</p>
+                <BulletPointSection list={INFO.home.description}/> 
               </div>
               <InteractableImage />
             </div>
