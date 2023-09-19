@@ -10,9 +10,9 @@ export const ProjectModal: FC<{ setIsOpen: any, projNumber: number }> = ({ setIs
 
   return (
     <>
-      <div className='z-30 fixed top-0 left-0 w-full h-full'>
+      <div className='z-30 fixed top-0 left-0 w-screen h-screen'>
         <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 backdrop-blur-md' ></div>
-        <div className='flex justify-center fade-in relative overflow-auto h-full sm:p-24' onClick={() => setIsOpen(false)}>
+        <div className='flex justify-center fade-in relative overflow-auto h-full w-full sm:p-24' onClick={() => setIsOpen(false)}>
 
           <div className="max-w-4xl">
 
