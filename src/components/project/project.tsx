@@ -25,16 +25,16 @@ const Project: FC<ProjectProps> = ({ banner, logo, title, description, linkText,
                         <img src={banner} alt="header" className="w-full brightness-75 z-0" />
                     </div>
 
-                    {onClose ? <div onClick={onClose} className={"absolute right-0 top-0  pt-4 pr-8 sm:p-6 text-zinc-100"} ><CloseIcon size={25}/></div> : undefined}
+                    {onClose ? <div onClick={onClose} className={"absolute right-0 top-0  pt-4 pr-8 sm:p-6 text-zinc-100"} ><CloseIcon size={25} /></div> : undefined}
 
                     <div className="-mt-16 p-8 flex flex-col gap-3 justify-center">
                         <img src={logo} alt="logo" className="z-10" style={{ width: "4em" }} />
                         <p className="text-l font-bold">{title}</p>
                         <div>{description}</div>
-                        <a href={link} className="flex gap-2 items-center">
+                        <div className="flex gap-2 items-center">
                             <LinkIcon />
-                            <span className="text-sm">{linkText}</span>
-                        </a>
+                            <a href={link} target="_blank" onClick={(e) => { e.stopPropagation()}} className="text-sm">{linkText}</a>
+                        </div>
                     </div>
                 </div>
             </div>
