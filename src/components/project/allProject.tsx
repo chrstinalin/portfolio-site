@@ -26,12 +26,13 @@ export const AllProjects: FC<{ onClick: any }> = ({ onClick }) => {
 
 	return (
 		<div className="p-6 flex flex-wrap items-center justify-center gap-6 " style={{ maxWidth: "52.5rem" }}>
-			{INFO.projects.map((project: { banner: any; logo: any; title: any; description: any; linkText: any; link: any; }, index: React.Key | null | undefined) => (
+			{INFO.projects.map((project: { banner: any; logo: any; title: any; subtitle: any; description: any; linkText: any; link: any; }, index: React.Key | null | undefined) => (
 				<div key={index} onClick={() => { onClick(index) }}>
 					<ProjectCard
 						banner={project.banner}
 						logo={project.logo}
 						title={project.title}
+						subtitle={project.subtitle}
 						description={project.description}
 						linkText={project.linkText}
 						link={project.link}

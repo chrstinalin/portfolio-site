@@ -6,6 +6,7 @@ interface ProjectProps {
     banner: any
     logo: any
     title: any
+    subtitle: any
     description: any
     linkText: any
     link: any
@@ -13,7 +14,7 @@ interface ProjectProps {
     onClose?: any
 }
 
-const Project: FC<ProjectProps> = ({ banner, logo, title, description, linkText, link, preventEvent, onClose }) => {
+const Project: FC<ProjectProps> = ({ banner, logo, title, subtitle, description, linkText, link, preventEvent, onClose }) => {
     return (
         <React.Fragment>
 
@@ -29,7 +30,8 @@ const Project: FC<ProjectProps> = ({ banner, logo, title, description, linkText,
 
                     <div className="-mt-16 p-8 flex flex-col gap-3 justify-center">
                         <img src={logo} alt="logo" className="z-10" style={{ width: "4em" }} />
-                        <p className="text-l font-bold">{title}</p>
+                        <p className="text-xl font-bold">{title}</p>
+                        <p className="text-md -mt-3 text-zinc-400">{subtitle}</p>
                         <div>{description}</div>
                         <div className="flex gap-2 items-center">
                             <LinkIcon />

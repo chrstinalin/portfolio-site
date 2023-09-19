@@ -38,6 +38,7 @@ export const INFO = {
 	projects: [
 		{
 			title: "Project 1",
+			subtitle:"React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima. Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima. Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima. Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima. Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -48,6 +49,7 @@ export const INFO = {
 
 		{
 			title: "Project 2",
+			subtitle:"React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
@@ -58,6 +60,7 @@ export const INFO = {
 
 		{
 			title: "Project 3",
+			subtitle:"React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
@@ -68,6 +71,7 @@ export const INFO = {
 
 		{
 			title: "Project 4",
+			subtitle:"React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -78,6 +82,7 @@ export const INFO = {
 
 		{
 			title: "Project 5",
+			subtitle:"React, Python",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",

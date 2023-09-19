@@ -20,6 +20,7 @@ export const ProjectModal: FC<{ setIsOpen: any, projNumber: number }> = ({ setIs
               banner={project.banner}
               logo={project.logo}
               title={project.title}
+              subtitle={project.subtitle}
               description={project.description}
               linkText={project.linkText}
               link={project.link}
