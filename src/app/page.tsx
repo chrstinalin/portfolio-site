@@ -94,7 +94,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="text-zinc-400 flex h-28 mt-6 justify-center items-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-900 dark:from-inherit">
+      <div className="text-zinc-400 flex h-28 mt-6 justify-center items-center border-b border-gray-300 backdrop-blur-2xl border-neutral-800 bg-zinc-900 from-inherit">
         © 2023 Christina Lin
       </div>
 

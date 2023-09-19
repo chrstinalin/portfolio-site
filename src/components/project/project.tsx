@@ -17,7 +17,7 @@ const Project: FC<ProjectProps> = ({ banner, logo, title, description, linkText,
     return (
         <React.Fragment>
 
-            <div onClick={preventEvent ? (e) => { e.stopPropagation() } : undefined} className={"overflow-hidden z-50 rounded-lg border-b border-gray-300 bg-gradient-to-b from-zinc-200 dark:border-neutral-800 dark:bg-zinc-900 dark:from-inherit"}>
+            <div onClick={preventEvent ? (e) => { e.stopPropagation() } : undefined} className={"overflow-hidden z-50 rounded-lg border-b border-gray-300 border-neutral-800 bg-zinc-900 from-inherit"}>
 
                 <div className={"text-left flex flex-col items-stretch relative"}>
 
