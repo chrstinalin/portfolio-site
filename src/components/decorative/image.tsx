@@ -53,7 +53,7 @@ function Deck() {
               height: '20em',
               transform: interpolate([rot, scale], trans),
               backgroundImage: `url(${cards[i]})`,
-              backgroundSize: "30em",
+              backgroundSize: "20em",
               boxShadow: 'none',
             }}
           />

@@ -60,7 +60,7 @@ export default function Home() {
             <div className="relative flex justify-center place-items-center flex-wrap-reverse">
               <div className="w-96 p-8 flex flex-col gap-2">
                 <p className="text-5xl font-bold">{INFO.home.title}</p>
-                <BulletPointSection list={INFO.home.description}/> 
+                <BulletPointSection list={INFO.home.description}/>
               </div>
               <InteractableImage />
             </div>
@@ -73,9 +73,9 @@ export default function Home() {
           <FadeInSection>
             <div className="relative flex justify-center items-center flex-wrap">
               <CardStack />
-              <div className="w-96 p-16 flex flex-col gap-2">
-                <p className="text-5xl font-bold">{INFO.about.title}</p>
-                <p>{INFO.about.description}</p>
+              <div className="w-96 p-20 flex flex-col gap-2">
+                <p className="text-5xl font-bold w-64">{INFO.about.title}</p>
+                <p className="whitespace-pre-line w-72">{INFO.about.description}</p>
               </div>
               <AllTagSections />
             </div>

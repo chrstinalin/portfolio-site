@@ -54,11 +54,11 @@ function Deck() {
             {...bind(i)}
             className={"rounded-lg object-contain"} 
             style={{
-              width: '20em',
-              height: '20em',
+              width: '22em',
+              height: '22em',
               transform: interpolate([rot, scale], trans),
               backgroundImage: `url(${cards[i]})`,
-              backgroundSize: "30em",
+              backgroundSize: "22em",
               boxShadow: 'none',
             }}
           />

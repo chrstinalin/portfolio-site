@@ -7,13 +7,14 @@ const ProjectCard = (props: { banner: any, logo: any; title: any; subtitle: any;
 	const { banner, logo, title, subtitle, description, linkText, link, isFull } = props;
 
 	return (
-		<div className={`${isFull ? "w-full m-h-96" : "w-96 m-h-80"}`}>
+		<div className={`${isFull ? "w-full" : "w-96"}`}>
+			
 			<Project
 				banner={banner}
 				logo={logo}
 				title={title}
 				subtitle={subtitle}
-				description={description}
+				description={description.split('\n', 1)[0]}
 				linkText={linkText}
 				link={link}
 				preventEvent={false}

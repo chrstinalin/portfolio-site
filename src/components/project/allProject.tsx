@@ -36,7 +36,8 @@ export const AllProjects: FC<{ onClick: any }> = ({ onClick }) => {
 						description={project.description}
 						linkText={project.linkText}
 						link={project.link}
-						isFull={index == 0 || windowSize != undefined && windowSize < 900}
+						isFull={true}
+						// isFull={index == 0 || windowSize != undefined && windowSize < 900}
 					/>
 				</div>
 			))}
