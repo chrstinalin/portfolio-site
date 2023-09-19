@@ -41,7 +41,7 @@ export default function Home() {
       <Particle />
       <NavBar />
 
-      <div className=" z-20 fixed left-0 top-0 flex w-full justify-end items-center gap-4 p-4 bg-zinc-800 drop-shadow-md lg:bg-transparent lg:drop-shadow-none">
+      <div className=" z-20 fixed left-0 top-0 flex w-full justify-end items-center gap-4 p-2 md:p-4 bg-zinc-800 drop-shadow-md lg:bg-transparent lg:drop-shadow-none">
         <div className="flex gap-4 items-center justify-center">
           <a className={"hover-effect"} href={INFO.socials.github} target="_blank">
             <GithubIcon size={25} />
