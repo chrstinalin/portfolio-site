@@ -48,7 +48,6 @@ export const INFO = {
 				
 				The system manages various key business processes of four subsidiary companies, including scheduling and dispatching contracts valued in the hundreds of thousands with retail & warehouse companies such as Amazon, Walmart and Home Depot. 
 				
-				◦ Migrated an Enterprise Resource Planning (ERP) application from a ColdFusion application to a modern tech stack.
 				◦ Addressed SQL Server structural concerns by redesigning the database under stricter schema & conventions.
 				◦ Developed the software’s Nest.js REST API, communication with the database via Prisma ORM, and access control & policy management via Casbin.
 				◦ Designed & implemented a web-based React.js application to facilitate communication with the API.
