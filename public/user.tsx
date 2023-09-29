@@ -85,7 +85,7 @@ export const INFO = {
 			description:
 				`Scrapes and parses through Twitter data, quantifying human sentimentality of tweets through a word-emotion association lexicon. Analyzes how perception towards COVID-19 changes in relation to statistics over time.`,
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			banner: "https://media.licdn.com/dms/image/sync/C5627AQFBJh6hPR3eRA/articleshare-shrink_800/0/1695084914074?e=1695736800&v=beta&t=STHOk5ksaeFmUxjd83tFaatIOBThKXEp-LSwZOoK4QM",
+			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/covid_sentimentality.jpg?raw=true",
 			linkText: "View Project",
 			link: "https://github.com/chrstinalin/COVID_Sentimentality",
 		},
@@ -96,7 +96,7 @@ export const INFO = {
 			description:
 				`Lead developer. One of two winners of the Waterloo Catalyst Conference. Brainstormed, designed and wireframed an app over two days. CoFit is a mobile app connecting users and promoting collaborative workouts and recipes in light of COVID-19. Promotes health and wellness even indoors.`,
 			logo: "https://assets.asana.biz/transform/ba9b63a3-f255-4088-b5fe-14ab4628f50b/logo-app-figma",
-			banner: "https://media.licdn.com/dms/image/sync/C4D27AQH-T7ltzcUmqA/articleshare-shrink_800/0/1695084913673?e=1695736800&v=beta&t=HvwznEdIgl7usQhIxHo63i7eLDGWZpdnP8noEIGW1V8",
+			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/cofit.png?raw=true",
 			linkText: "View Project",
 			link: "https://www.youtube.com/watch?v=Stc3jOQQ4og",
 		},
@@ -118,7 +118,7 @@ export const INFO = {
 			description:
 				`Lead Designer. Winner of Best Design at McHacks 2020. Alongside a cuddly mascot, CodaCat engages children to learn how to code at a young age in a simple and fun way – walking them through the process of making their own minigames.`,
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			banner: "https://media.licdn.com/dms/image/sync/C4D27AQGt0RRMCQQsFQ/articleshare-shrink_800/0/1695084913653?e=1695736800&v=beta&t=hafoZcOKPmK4s_X9Nkmotc8cu2HcRV93-JgAGQ87ARc",
+			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/codacat.png?raw=true",
 			linkText: "View Project",
 			link: "https://www.youtube.com/watch?v=ignTmGH9Qh4",
 		},
