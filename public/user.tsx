@@ -2,7 +2,7 @@ export const INFO = {
 
 	socials: {
 		github: "https://github.com/chrstinalin",
-		linkedin: "https://linkedin.com/chrstina"
+		linkedin: "https://linkedin.com/in/chrstina"
 	},
 
 	languages: ["Typescript", "Javascript", "HTML", "CSS", "Java", "Python", "SQL", "Assembly", "C/C++"],
