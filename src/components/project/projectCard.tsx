@@ -7,7 +7,7 @@ const ProjectCard = (props: { banner: any, logo: any; title: any; subtitle: any;
 	const { banner, logo, title, subtitle, description, linkText, link, isFull } = props;
 
 	return (
-		<div className={`${isFull ? "w-full" : "w-96"}`}>
+		<div className={`${isFull ? "w-full" : "w-96"} overflow-hidden`}>
 			
 			<Project
 				banner={banner}
