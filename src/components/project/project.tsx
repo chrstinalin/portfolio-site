@@ -18,7 +18,7 @@ const Project: FC<ProjectProps> = ({ banner, logo, title, subtitle, description,
     return (
             <div onClick={preventEvent ? (e) => { e.stopPropagation() } : undefined} className={"h-full z-50 rounded-lg border-b border-gray-300 border-neutral-800 bg-zinc-900 from-inherit"}>
                 <div className={"text-left flex flex-col items-stretch relative m-h-full"}>
-                    {banner ? <div className={"w-full max-h-96"}>
+                    {banner ? <div className={"w-full max-h-96 overflow-hidden"}>
                         <img src={banner} alt="header" className="w-full brightness-75 z-0" />
                     </div> : undefined}
                     {onClose ? <div onClick={onClose} className={"absolute right-0 top-0  pt-4 pr-8 sm:p-6 text-zinc-100"} ><CloseIcon size={25} /></div> : undefined}
