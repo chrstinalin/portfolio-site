@@ -52,7 +52,14 @@ export const INFO = {
 				
 				On the backend, I developed the software's API & algorithms, its communication with the SQL Server, and its access control & policy management. In the frontend, I designed & developed a web-based React application to facilitate communication with the API. I also deployed these services on traditional CentOS servers.
 
-				Currently, I'm retained as a part-time employee to maintain & continue to develop the software.`,
+				Currently, I'm retained as a part-time employee to maintain & continue to develop the software.
+				
+				◦ Migrated an Enterprise Resource Planning (ERP) application from a ColdFusion application to a modern tech stack.
+				◦ Addressed SQL Server structural concerns by redesigning the database under stricter schema & conventions.
+				◦ Developed the software’s Nest.js REST API, communication with the database via Prisma ORM, and access control & policy management via Casbin.
+				◦ Designed & implemented a web-based React.js application to facilitate communication with the API.
+				◦ Deployed these services on traditional CentOS servers.
+				`,
 			banner: "https://www.palletmanagementgroup.ca/wp-content/uploads/2016/02/shutterstock_341563829.jpg",
 			logo: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/react.png?raw=true"
 		},
@@ -72,7 +79,12 @@ export const INFO = {
 			title: "Communify - Collaborative Music Platform (2022)",
 			subtitle: "Java, Swing",
 			description:
-				`Collaborative project. Responsible for the implementation of audio file data I/O and persistence, as well as major overhaul of the program design. An offline prototype of a collaborative music-streaming platform.`,
+				`Collaborative project. Responsible for the implementation of audio file data I/O and persistence, as well as major overhaul of the program design. An offline prototype of a collaborative music-streaming platform.
+				
+				◦ Implemented the MP3 data uploading process, metadata parsing & persistence using Jaudiotagger.
+				◦ Introduced a modern UI design utilizing the FlatLaf library.
+				◦ Developed a strong understanding of clean architecture and coding in a large team.
+				`,
 			logo: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/java.png?raw=true",
 			banner: "https://user-images.githubusercontent.com/44586776/214299159-4fa5ad0d-49f8-46f3-af48-9d30ccff85a8.png",
 			linkText: "View Project",
@@ -83,7 +95,12 @@ export const INFO = {
 			title: "Covid Sentimentality - Data Congregation & Analysis Tool (2021)",
 			subtitle: "Python",
 			description:
-				`Scrapes and parses through Twitter data, quantifying human sentimentality of tweets through a word-emotion association lexicon. Analyzes how perception towards COVID-19 changes in relation to statistics over time.`,
+				`Scrapes and parses through Twitter data, quantifying human sentimentality of tweets through a word-emotion association lexicon. Analyzes how perception towards COVID-19 changes in relation to statistics over time.
+				
+				◦ Implemented mass Twitter data-scraping via the Twint library.
+				◦ Utilized the Pandas library in analyzing & manipulating the emotional index of tweets.
+				◦ Developed algorithm to calculate indices using a word-emotion lexicon and approximate & phonetic matching.
+				`,
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/covid_sentimentality.jpg?raw=true",
 			linkText: "View Project",
@@ -94,7 +111,12 @@ export const INFO = {
 			title: "CoFit App Design (2020)",
 			subtitle: "Figma, Marvel",
 			description:
-				`Lead developer. One of two winners of the Waterloo Catalyst Conference. Brainstormed, designed and wireframed an app over two days. CoFit is a mobile app connecting users and promoting collaborative workouts and recipes in light of COVID-19. Promotes health and wellness even indoors.`,
+				`Lead developer. One of two winners of the Waterloo Catalyst Conference. Brainstormed, designed and wireframed an app over two days. CoFit is a mobile app connecting users and promoting collaborative workouts and recipes in light of COVID-19. Promotes health and wellness even indoors.
+				
+				◦ Coordinated team and introduced the overarching design principles.
+				◦ Designed the application with Figma, wireframed with Marvel.
+				◦ Winning application at the Waterloo Catalyst Conference.
+				`,
 			logo: "https://assets.asana.biz/transform/ba9b63a3-f255-4088-b5fe-14ab4628f50b/logo-app-figma",
 			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/cofit.png?raw=true",
 			linkText: "View Project",
@@ -105,7 +127,12 @@ export const INFO = {
 			title: "Dungeon Crawler (2020)",
 			subtitle: "Java, Slick2D, LWJGL",
 			description:
-				`Solo project. Features procedurally-generated parallax maps using a modular algorithm, unique player movement, several unique NPCs and enemies, as well as upgrades and quests. Developed over the course of a week.`,
+				`Solo project. Features procedurally-generated parallax maps using a modular algorithm, unique player movement, several unique NPCs and enemies, as well as upgrades and quests. Developed over the course of a week.
+				
+				◦ Implemented algorithm for the Spelunky-style procedurally-generated parallax maps.
+				◦ Developed player movement, NPC AI traversal & attack algorithms.
+				◦ Strengthened understanding of recursion via implementation of modular algorithm designs.
+				`,
 			logo: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/java.png?raw=true",
 			banner: "https://github.com/chrstinalin/dungeonCrawl/raw/main/asset/demo.gif?raw=true",
 			linkText: "View Project",
@@ -116,7 +143,8 @@ export const INFO = {
 			title: "CodaCat 101 (2020)",
 			subtitle: "CSS, HTML5, Javascript, Typescript",
 			description:
-				`Lead Designer. Winner of Best Design at McHacks 2020. Alongside a cuddly mascot, CodaCat engages children to learn how to code at a young age in a simple and fun way – walking them through the process of making their own minigames.`,
+				`Lead Designer. Winner of Best Design at McHacks 2020. Alongside a cuddly mascot, CodaCat engages children to learn how to code at a young age in a simple and fun way – walking them through the process of making their own minigames.
+				`,
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/codacat.png?raw=true",
 			linkText: "View Project",
@@ -127,7 +155,12 @@ export const INFO = {
 			title: "Brawler Game (2019)",
 			subtitle: "C++, QT Creator",
 			description:
-				`Solo project. A two-player Street-Fighter game featuring custom characters with varying skillsets and unique maps. Made completely from scratch, without the aid of additional libraries.`,
+				`Solo project. A two-player Street-Fighter game featuring custom characters with varying skillsets and unique maps. Made completely from scratch, without the aid of additional libraries.
+				
+				◦ Implemented four unique character movement & skillsets within three dynamic environments.
+				◦ Developed understanding of menu designs & game development fundamentals.
+				◦ Experienced developing from scratch and without libraries.
+`,
 			logo: "https://cdn-icons-png.flaticon.com/512/6132/6132222.png",
 			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/brawler.gif?raw=true",
 			linkText: "View Project",
