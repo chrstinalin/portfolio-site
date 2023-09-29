@@ -48,12 +48,6 @@ export const INFO = {
 				
 				The system manages various key business processes of four subsidiary companies, including scheduling and dispatching contracts valued in the hundreds of thousands with retail & warehouse companies such as Amazon, Walmart and Home Depot. 
 				
-				This opportunity gave me a strong understanding of the fullstack development process. 
-				
-				On the backend, I developed the software's API & algorithms, its communication with the SQL Server, and its access control & policy management. In the frontend, I designed & developed a web-based React application to facilitate communication with the API. I also deployed these services on traditional CentOS servers.
-
-				Currently, I'm retained as a part-time employee to maintain & continue to develop the software.
-				
 				◦ Migrated an Enterprise Resource Planning (ERP) application from a ColdFusion application to a modern tech stack.
 				◦ Addressed SQL Server structural concerns by redesigning the database under stricter schema & conventions.
 				◦ Developed the software’s Nest.js REST API, communication with the database via Prisma ORM, and access control & policy management via Casbin.
