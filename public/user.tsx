@@ -46,7 +46,7 @@ export const INFO = {
 			description:
 				`Developed & deployed a Node.js CRUD web application under a Canadian pallet manufacturing conglomerate. Redesigned, migrated, and extended both the SQL Server database and the original ColdFusion enterprise resource planning (ERP) software to a modern tech stack. 
 				
-				The system manages various key business processes of four subsidiary companies, including scheduling and dispatching contracts valued in the hundreds of thousands with retail & warehouse companies such as Amazon, Walmart and Home Depot. 
+				The system manages various key business processes of three subsidiary companies, including scheduling and dispatching contracts valued in the hundreds of thousands with retail & warehouse companies such as Amazon, Walmart and Home Depot. 
 				
 				◦ Addressed SQL Server structural concerns by redesigning the database under stricter schema & conventions.
 				◦ Developed the software’s Nest.js REST API, communication with the database via Prisma ORM, and access control & policy management via Casbin.
