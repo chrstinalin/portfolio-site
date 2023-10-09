@@ -19,7 +19,7 @@ export const INFO = {
 				"Fullstack developer with an eye for clean, elegant software."
 			],
 		photo: [
-			'https://github.com/chrstinalin/portfolio-site/blob/christina/photos/trip2.JPG?raw=true']
+			'photos/trip2.JPG']
 	},
 
 	about: {
@@ -27,9 +27,9 @@ export const INFO = {
 		description:
 			"Born & raised in Hamilton, Ontario, I'm a challenge-seeker who strives to go above and beyond. \n\n On the side, I enjoy digital illustration & product design, where I've previously done freelance work and sold custom merchandise. \n\n In light of my work, I was named one of ten 2021 Horatio Alger National Entreprenurial Scholars in Canada.",
 		photos: [
-			'https://github.com/chrstinalin/portfolio-site/blob/christina/photos/pin.jpg?raw=true',
-			'https://github.com/chrstinalin/portfolio-site/blob/christina/photos/gala.jpg?raw=true',
-			'https://github.com/chrstinalin/portfolio-site/blob/christina/photos/horatio.png?raw=true',
+			'photos/pin.jpg',
+			'photos/gala.jpg',
+			'photos/horatio.png',
 		]
 	},
 
@@ -53,8 +53,8 @@ export const INFO = {
 				◦ Designed & implemented a web-based React.js application to facilitate communication with the API.
 				◦ Deployed these services on traditional CentOS servers.
 				`,
-			banner: "https://www.palletmanagementgroup.ca/wp-content/uploads/2016/02/shutterstock_341563829.jpg",
-			logo: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/react.png?raw=true"
+			banner: "photos/pallet.jpg",
+			logo: "photos/react.png"
 		},
 
 		// {
@@ -72,14 +72,14 @@ export const INFO = {
 			title: "Communify - Collaborative Music Platform (2022)",
 			subtitle: "Java, Swing",
 			description:
-				`Collaborative project. Responsible for the implementation of audio file data I/O and persistence, as well as major overhaul of the program design. An offline prototype of a collaborative music-streaming platform.
+				`An offline prototype of a collaborative music-streaming platform. Allows users to listen to music and create private playlists. On top of all user features, artists can upload and view their songs on their dashboard. Provides recommendations based on the individual songs or playlists and have collaborative ‘spaces’ – public radios that users can both listen to and contribute to.
 				
 				◦ Implemented the MP3 data uploading process, metadata parsing & persistence using Jaudiotagger.
 				◦ Introduced a modern UI design utilizing the FlatLaf library.
 				◦ Developed a strong understanding of clean architecture and coding in a large team.
 				`,
-			logo: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/java.png?raw=true",
-			banner: "https://user-images.githubusercontent.com/44586776/214299159-4fa5ad0d-49f8-46f3-af48-9d30ccff85a8.png",
+			logo: "photos/java.png",
+			banner: "photos/communify.png",
 			linkText: "View Project",
 			link: "https://github.com/CSC207-2022F-UofT/course-project-team-communify",
 		},
@@ -95,7 +95,7 @@ export const INFO = {
 				◦ Developed algorithm to calculate indices using a word-emotion lexicon and approximate & phonetic matching.
 				`,
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/covid_sentimentality.jpg?raw=true",
+			banner: "photos/covid_sentimentality.jpg",
 			linkText: "View Project",
 			link: "https://github.com/chrstinalin/COVID_Sentimentality",
 		},
@@ -111,7 +111,7 @@ export const INFO = {
 				◦ Winning application at the Waterloo Catalyst Conference.
 				`,
 			logo: "https://assets.asana.biz/transform/ba9b63a3-f255-4088-b5fe-14ab4628f50b/logo-app-figma",
-			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/cofit.png?raw=true",
+			banner: "photos/cofit.png",
 			linkText: "View Project",
 			link: "https://www.youtube.com/watch?v=Stc3jOQQ4og",
 		},
@@ -126,8 +126,8 @@ export const INFO = {
 				◦ Developed player movement, NPC AI traversal & attack algorithms.
 				◦ Strengthened understanding of recursion via implementation of modular algorithm designs.
 				`,
-			logo: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/java.png?raw=true",
-			banner: "https://github.com/chrstinalin/dungeonCrawl/raw/main/asset/demo.gif?raw=true",
+			logo: "photos/java.png",
+			banner: "https://github.com/chrstinalin/dungeonCrawl/raw/main/asset/demo.gif",
 			linkText: "View Project",
 			link: "https://github.com/chrstinalin/dungeonCrawl",
 		},
@@ -139,7 +139,7 @@ export const INFO = {
 				`Lead Designer. Winner of Best Design at McHacks 2020. Alongside a cuddly mascot, CodaCat engages children to learn how to code at a young age in a simple and fun way – walking them through the process of making their own minigames.
 				`,
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/codacat.png?raw=true",
+			banner: "photos/codacat.png",
 			linkText: "View Project",
 			link: "https://www.youtube.com/watch?v=ignTmGH9Qh4",
 		},
@@ -155,7 +155,7 @@ export const INFO = {
 				◦ Experienced developing from scratch and without libraries.
 `,
 			logo: "https://cdn-icons-png.flaticon.com/512/6132/6132222.png",
-			banner: "https://github.com/chrstinalin/portfolio-site/blob/christina/photos/brawler.gif?raw=true",
+			banner: "photos/brawler.gif",
 			linkText: "View Project",
 			link: "https://www.youtube.com/watch?v=AJlPQPhja2U",
 		},
